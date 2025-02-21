@@ -42,7 +42,7 @@ function UniversityDetails(){
             </div>
             </main>
             <footer className="bg-light text-center py-3 mt-5">
-                <p className="mb-0">&copy; 2024 {university.name}. All rights reserved.</p>
+                <p className="mb-0">&copy; 2025 {university.name}. All rights reserved.</p>
             </footer>
         </div>
     );

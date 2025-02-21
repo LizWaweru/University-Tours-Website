@@ -39,7 +39,7 @@ function Admin() {
   const handleSubmit=(e)=>{
     e.preventDefault();
     if(isEditing){
-      fetch(`http://localhost:3000/universities-list/${selectedUniversity.id}`, {
+      fetch(`http://localhost:3001/universities-list/${selectedUniversity.id}`, {
         method:"PUT",
         headers:{
           "Content-Type": "application/json"
@@ -52,7 +52,7 @@ function Admin() {
           resetForm();
         });
     } else {
-      fetch("http://localhost:3000/universities-list", {
+      fetch("http://localhost:3001/universities-list", {
         method:"POST",
         headers:{
           "Content-Type": "application/json"
@@ -73,7 +73,7 @@ function Admin() {
   };
 
   const handleDelete=(id)=>{
-    fetch(`http://localhost:3000/universities-list/${id}`, {
+    fetch(`http://localhost:3001/universities-list/${id}`, {
       method:"DELETE"
     })
       .then(()=>{

@@ -12,7 +12,7 @@ function Gallery ({images}) {
     return (
         <>
         <div className={model?"model open":"model"}>
-            <img src={tempImgSrc}/>
+            <img src={tempImgSrc} alt=""/>
             <CloseIcon onClick={()=>setModel(false)}/>
         </div>
         <h2>Gallery</h2>
@@ -20,7 +20,7 @@ function Gallery ({images}) {
             <div className="gallery-images">
                 {images.map((eachImage, index) => (
                     <div className="pics" key={index.toString()} onClick={()=>getImage(eachImage)}>
-                        <img src={eachImage} alt={`Image ${index+1}`} style={{width:"100%"}} />
+                        <img src={eachImage} alt={`Gallery item ${index+1}`} style={{width:"100%"}} />
                     </div>
                 ))}
             </div>

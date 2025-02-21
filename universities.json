@@ -1,0 +1,695 @@
+
+{
+    "universities-list": [
+    {
+    "id": 1,
+    "name": "University of Nairobi",
+    "county": "Nairobi",
+    "academics": [
+    "Computer Science",
+    "Medicine",
+    "Law"
+    ],
+    "facilities": [
+    "Library",
+    "Sports Complex",
+    "Research Center"
+    ],
+    "lecturers": [
+    {
+    "name": "Dr. Margret Akinyi",
+    "department": "Computer Science"
+    },
+    {
+    "name": "Dr. Marcos Ouma",
+    "department": "Medicine"
+    }
+    ],
+    "gallery": [
+    "https://www.mind.org.uk/media/12726/young-person-chatting-to-teacher-close-up.jpg?anchor=center&mode=crop&width=814&height=352&rnd=132961535911370000&quality=75&format=webp",
+    "https://uonbi.ac.ke/sites/default/files/undergraduate%20photos%20%281%29.jpg",
+    "https://uonbi.ac.ke/sites/default/files/Undergrad%20pic.jpg",
+    "https://img2.chinadaily.com.cn/images/202402/08/65c4da44a3104efc3302a9a7.jpeg",
+    "https://img2.chinadaily.com.cn/images/202402/08/65c4da44a3104efc3302a9b6.jpeg",
+    "https://upload.wikimedia.org/wikipedia/commons/6/6d/University_of_Nairobi_Towers.jpg",
+    "https://cdn.standardmedia.co.ke/images/wysiwyg/images/t3J0OmtK9AZbj9ytPNOEPJTlsJqP3Q8z1W6ERhGS.jpg",
+    "https://b2u5a4j5.rocketcdn.me/wp-content/uploads/2023/08/postgraduate-engineering-programmes-offered-at-the-university-of-nairobi-kenya-1-1024x574.png.webp",
+    "https://cdn.standardmedia.co.ke/images/wysiwyg/images/cpXjfYE1o5kZXZfElqtTSdGnyupwRcxKJiYl0hep.jpg",
+    "https://academics.uonbi.ac.ke/sites/academics.uonbi.ac.ke/files/inline-images/Eg-bcz4WkAA5D-x.jpg"
+    ]
+    },
+    {
+    "id": 2,
+    "name": "Kenyatta University",
+    "county": "Nairobi",
+    "academics": [
+    "Education",
+    "Business Administration",
+    "Engineering"
+    ],
+    "facilities": [
+    "Auditorium",
+    "Innovation Hub",
+    "Student Center"
+    ],
+    "lecturers": [
+    {
+    "name": "Prof. Hassan Ali",
+    "department": "Education"
+    },
+    {
+    "name": "Dr. James Ochieng",
+    "department": "Business Administration"
+    }
+    ],
+    "gallery": [
+    "https://victormatara.com/wp-content/uploads/2018/03/List-Of-Courses-Offered-at-Kenyatta-University.jpg",
+    "https://pbs.twimg.com/media/GS1VxEHW4AEhuSB?format=jpg&name=large",
+    "https://nairobileo.co.ke/storage/uploads/2022/07/IMG-202207131102581.jpg",
+    "https://fastly.4sqi.net/img/general/width960/842542_SWdRDDbPHE4L-uWl51LQb7derhsSb3XvS4upRlhKERc.jpg",
+    "https://builtforgoodafrica.com/wp-content/uploads/2018/09/KUThumb-1024x576.jpg",
+    "https://builtforgoodafrica.com/wp-content/uploads/2018/09/KU-Post-Modern-Library-1024x683.jpg",
+    "https://i0.wp.com/kenyayote.com/wp-content/uploads/2017/05/tip-for-first-years-on-surviving-in-campus-college-life.png?w=680&ssl=1",
+    "https://cdn.standardmedia.co.ke/images/wednesday/huhihad5pavgxefo4wt61f1767fe963c.jpg"
+    ]
+    },
+    {
+    "id": 3,
+    "name": "Moi University",
+    "county": "Uasin Gishu",
+    "academics": [
+    "Agriculture",
+    "Environmental Science",
+    "Information Technology"
+    ],
+    "facilities": [
+    "Agricultural Research Farm",
+    "Computer Labs",
+    "Botanical Garden"
+    ],
+    "lecturers": [
+    {
+    "name": "Dr. Elizabeth Chebet",
+    "department": "Agriculture"
+    },
+    {
+    "name": "Prof. Samuel Kiprop",
+    "department": "Environmental Science"
+    }
+    ],
+    "gallery": [
+    "https://www.eduopinions.com/wp-content/uploads/2022/04/Moi-University-Logo-350x269.jpg",
+    "https://gallery.mu.ac.ke/_data/i/upload/2019/08/16/20190816101847-3daf9971-xs.jpg",
+    "https://gallery.mu.ac.ke/_data/i/upload/2018/09/21/20180921115659-535004e3-xs.jpg",
+    "https://gallery.mu.ac.ke/_data/i/upload/2018/09/21/20180921115657-5d27d940-me.jpg",
+    "https://gallery.mu.ac.ke/_data/i/upload/2018/09/21/20180921115659-535004e3-me.jpg",
+    "https://gallery.mu.ac.ke/_data/i/upload/2019/02/18/20190218150434-0fbc4007-me.jpg",
+    "https://gallery.mu.ac.ke/_data/i/upload/2019/02/18/20190218150655-7eb2efac-me.jpg",
+    "https://gallery.mu.ac.ke/_data/i/upload/2019/07/08/20190708164557-f1d693b6-me.jpg",
+    "https://gallery.mu.ac.ke/_data/i/upload/2024/01/24/20240124093254-0f4a0bae-me.jpg",
+    "https://gallery.mu.ac.ke/_data/i/upload/2019/08/16/20190816101847-3daf9971-me.jpg",
+    "https://gallery.mu.ac.ke/_data/i/upload/2018/09/28/20180928090150-a6387f8a-me.jpg"
+    ]
+    },
+    {
+    "id": 4,
+    "name": "University of Eldoret",
+    "county": "Uasin Gishu",
+    "academics": [
+    "Sports Science",
+    "Forestry",
+    "Biotechnology"
+    ],
+    "facilities": [
+    "Olympic-size Swimming Pool",
+    "Forest Reserve",
+    "Biotech Labs"
+    ],
+    "lecturers": [
+    {
+    "name": "Dr. Victor Lagat",
+    "department": "Sports Science"
+    },
+    {
+    "name": "Prof. Grace Tanui",
+    "department": "Forestry"
+    }
+    ],
+    "gallery": [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKINt504W7PGVoySHx18TTCm8dsyGwV8SXFg&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Kygv7cjtl9VuwoQjA6EjixxtbcKFR-gbeg&s",
+    "https://www.fotophreak.com/wp-content/uploads/2018/02/four-2-1024x750.jpg",
+    "https://www.uoeld.ac.ke/sites/default/files/styles/large/public/block-images/2023-10/international.jpg?itok=W6tWLAL3",
+    "https://www.uoeld.ac.ke/sites/default/files/styles/large/public/block-images/2023-10/postgraduate.jpg?itok=ycQncNIa",
+    "https://www.uoeld.ac.ke/sites/default/files/styles/large/public/block-images/2023-10/cert-and-diploma.jpg?itok=627Feo7M"
+    ]
+    },
+    {
+    "id": 5,
+    "name": "Maseno University",
+    "county": "Kisumu",
+    "academics": [
+    "Fisheries",
+    "Public Health",
+    "Journalism"
+    ],
+    "facilities": [
+    "Aquaculture Ponds",
+    "Health Center",
+    "Media Studio"
+    ],
+    "lecturers": [
+    {
+    "name": "Dr. Otieno Okoth",
+    "department": "Fisheries"
+    },
+    {
+    "name": "Prof. Akinyi Odhiambo",
+    "department": "Public Health"
+    }
+    ],
+    "gallery": [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP3jAZ7ChD837rkySk3JDuuHahVfGoIK7rrA&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrWlDdvQSVemMnuF-TLDUBla1sat2tugG8aw&s",
+    "https://www.maseno.ac.ke/sites/default/files/styles/large/public/2022-07/mr-miss-maseno-2.png?itok=DTDt0dMF",
+    "https://www.maseno.ac.ke/sites/default/files/styles/large/public/2022-07/miss-maseno-1.png?itok=WsI1VCHU",
+    "https://www.maseno.ac.ke/sites/default/files/styles/large/public/2022-07/Female%20contestants.jpg?itok=FHPvtgua",
+    "https://virtual.maseno.ac.ke/images/about/s-5.jpg",
+    "https://virtual.maseno.ac.ke/images/about/s-4.jpg",
+    "https://sop.maseno.ac.ke/sites/default/files/phd.jpg",
+    "https://sop.maseno.ac.ke/sites/default/files/masters.jpg"
+    ]
+    },
+    {
+    "id": 6,
+    "name": "Masinde Muliro University of Science and Technology",
+    "county": "Kisumu",
+    "academics": [
+    "Disaster Management",
+    "Sugar Technology",
+    "Criminology"
+    ],
+    "facilities": [
+    "Disaster Response Center",
+    "Sugar Processing Plant",
+    "Forensic Lab"
+    ],
+    "lecturers": [
+    {
+    "name": "Dr. Peter Wafula",
+    "department": "Disaster Management"
+    },
+    {
+    "name": "Prof. Mary Adhiambo",
+    "department": "Sugar Technology"
+    }
+    ],
+    "gallery": [
+    "https://mmust.ac.ke/images/speasyimagegallery/albums/33/images/376683909-690453666441945-4566239248253415453-n.jpg",
+    "https://mmust.ac.ke/images/speasyimagegallery/albums/33/images/376731657-690444796442832-5081059941989091819-n2.jpg",
+    "https://mmust.ac.ke/images/speasyimagegallery/albums/43/images/406140852-733390288814949-3781907077915518334-n.jpg",
+    "https://mmust.ac.ke/images/speasyimagegallery/albums/60/images/img-9034.jpg",
+    "https://mmust.ac.ke/images/speasyimagegallery/albums/53/images/088a6437.jpg",
+    "https://mmust.ac.ke/images/speasyimagegallery/albums/41/images/400743175-723382559815722-1982183136606516818-n.jpg",
+    "https://mmust.ac.ke/images/speasyimagegallery/albums/33/images/374571105-690445713109407-836103924561014796-n.jpg",
+    "https://mmust.ac.ke/images/speasyimagegallery/albums/28/images/374774836-682789850541660-1188167637274377690-n.jpg",
+    "https://mmust.ac.ke/images/speasyimagegallery/albums/17/images/333867169-1169161693798989-5582287749894175749-n.jpg",
+    "https://mmust.ac.ke/images/speasyimagegallery/albums/9/images/tamasha2023f.jpg",
+    "https://mmust.ac.ke/images/speasyimagegallery/albums/9/images/tamasha2023c.jpg",
+    "https://mmust.ac.ke/images/speasyimagegallery/albums/9/images/088a6892.jpg",
+    "https://mmust.ac.ke/images/speasyimagegallery/albums/12/images/088a4866.jpg",
+    "https://mmust.ac.ke/images/speasyimagegallery/albums/12/images/088a4963-1.jpg"
+    ]
+    },
+    {
+    "id": 7,
+    "name": "Jomo Kenyatta University of Agriculture and Technology",
+    "county": "Kiambu",
+    "academics": [
+    "Food Science",
+    "Mechatronic Engineering",
+    "Horticulture"
+    ],
+    "facilities": [
+    "Food Processing Plant",
+    "Robotics Lab",
+    "Greenhouse Complex"
+    ],
+    "lecturers": [
+    {
+    "name": "Dr. Esther Munyiri",
+    "department": "Food Science"
+    },
+    {
+    "name": "Prof. David Gitau",
+    "department": "Mechatronic Engineering"
+    }
+    ],
+    "gallery": [
+    "https://www.jkuat.ac.ke/wp-content/uploads/2024/07/Ambassador-Ochoa-Visits-JKUAT-scaled.jpg",
+    "https://www.jkuat.ac.ke/wp-content/uploads/2024/07/Ambassador-Ochoa-Visits-JKUAT-scaled.jpg",
+    "http://website.jkuat.ac.ke/campus/nairobi/wp-content/uploads/2023/04/national-cancer-institute-K8AzGcMJbLI-unsplash-1024x680.jpg",
+    "https://nnmedia.nation.africa/uploads/2019/07/JKUAT-Graduation-1320x742.jpg",
+    "https://lh3.googleusercontent.com/MZOr_fKHMBMWJdME6kycgnNxuMiWoMJzyum7homn_iovD-pfoGfGlhPx8dmPk0grMvKI8D6mco_uAi1JTrU3AAr0pcvVvbTVgDNdg878vg=s1200",
+    "https://lh3.googleusercontent.com/yr-qvDre2eL_nie-yVBwpE61KgpTq_2bWiyQmqgnk1oT5RHQKWZ4ZlT2y7cA-us9471wjH7zeCHQIqwaDlXH613xf_urSZ5lpsDJCdB_1w=s1200",
+    "https://media.licdn.com/dms/image/D4D22AQFrshXQ4Nj9ng/feedshare-shrink_800/0/1684311245255?e=2147483647&v=beta&t=gBrYoG8-995cLmTkpwzU8-z3l6ayQ1_JEJFQwq51Qjg"
+    ]
+    },
+    {
+    "id": 8,
+    "name": "Mount Kenya University",
+    "county": "Kiambu",
+    "academics": [
+    "Pharmacy",
+    "Hospitality Management",
+    "Actuarial Science"
+    ],
+    "facilities": [
+    "Pharmaceutical Lab",
+    "Training Hotel",
+    "Financial Markets Lab"
+    ],
+    "lecturers": [
+    {
+    "name": "Dr. Angela Muthoni",
+    "department": "Pharmacy"
+    },
+    {
+    "name": "Prof. Joseph Kamau",
+    "department": "Hospitality Management"
+    }
+    ],
+    "gallery": [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOhE1KmLQQ9m17LlXSkYWsS3675e6vmRQLZw&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwV__FGFR1YCBqk6I47vdQgKwr-yk4EfbMRQ&s",
+    "https://www.mku.ac.ke/wp-content/uploads/2021/03/BCS_2571-263x263.jpg",
+    "https://www.mku.ac.ke/wp-content/uploads/2021/03/Mount-Kenya-University-Journalism-students-263x263.jpg",
+    "https://www.mku.ac.ke/wp-content/uploads/2021/03/Parklands-Law-Campus-263x263.jpg",
+    "https://www.mku.ac.ke/wp-content/uploads/2021/03/BCS_2494-263x263.jpg",
+    "https://www.mku.ac.ke/wp-content/uploads/2014/07/Computing-and-Informatic-students-during-a-lecture-at-Mount-Kenya-University-263x263.jpg",
+    "https://studentlife.mku.ac.ke/wp-content/uploads/2024/04/Kenya-National-Drama-Festivals-Slider.png",
+    "https://studentlife.mku.ac.ke/wp-content/uploads/2022/10/student-1.png",
+    "https://studentlife.mku.ac.ke/wp-content/uploads/2023/11/Cultural-Week.png",
+    "https://studentlife.mku.ac.ke//wp-content/uploads/2022/11/winners.png",
+    "https://studentlife.mku.ac.ke//wp-content/uploads/2022/11/Counselling.png",
+    "https://studentlife.mku.ac.ke/wp-content/uploads/2022/10/student-3.png"
+    ]
+    },
+    {
+    "id": 9,
+    "name": "Egerton University",
+    "county": "Nakuru",
+    "academics": [
+    "Veterinary Medicine",
+    "Agribusiness",
+    "Water Resources Management"
+    ],
+    "facilities": [
+    "Veterinary Hospital",
+    "Agribusiness Incubation Center",
+    "Hydrology Lab"
+    ],
+    "lecturers": [
+    {
+    "name": "Dr. Robert Kipkoech",
+    "department": "Veterinary Medicine"
+    },
+    {
+    "name": "Prof. Catherine Wangari",
+    "department": "Agribusiness"
+    }
+    ],
+    "gallery": [
+    "https://www.egerton.ac.ke/images/speasyimagegallery/albums/12/images/conf-37.jpg",
+    "https://www.egerton.ac.ke/images/speasyimagegallery/albums/1/images/img-5499.jpg",
+    "https://www.egerton.ac.ke/images/speasyimagegallery/albums/1/images/front-entrance-kilimo-hall.png",
+    "https://www.egerton.ac.ke/images/speasyimagegallery/albums/1/images/45a-egerton-viewhd.jpg",
+    "https://www.egerton.ac.ke/images/speasyimagegallery/albums/29/images/dsc-0017_thumb.jpg",
+    "https://www.egerton.ac.ke/images/speasyimagegallery/albums/14/images/59168-1474210488934-6534601-n.jpg",
+    "https://www.egerton.ac.ke/images/speasyimagegallery/albums/14/images/38642-1474154087524-4503802-n.jpg",
+    "https://www.egerton.ac.ke/images/speasyimagegallery/albums/12/images/conf-36.jpg",
+    "https://www.egerton.ac.ke/images/speasyimagegallery/albums/4/images/dsc00049.jpg",
+    "https://www.egerton.ac.ke/images/speasyimagegallery/albums/4/images/67529444-2348308252164927-5484666459533606912-n.jpg",
+    "https://www.egerton.ac.ke/images/speasyimagegallery/albums/1/images/43a.jpg",
+    "https://www.egerton.ac.ke/images/speasyimagegallery/albums/1/images/photo-21_thumb.jpg",
+    "https://www.egerton.ac.ke/images/speasyimagegallery/albums/3/images/32nd-grad1.jpg",
+    "https://www.egerton.ac.ke/images/speasyimagegallery/albums/3/images/41graduation2.jpg",
+    "https://www.egerton.ac.ke/images/speasyimagegallery/albums/10/images/img-9331.jpg"
+    ]
+    },
+    {
+    "id": 10,
+    "name": "Kabarak University",
+    "county": "Nakuru",
+    "academics": [
+    "Law",
+    "Music",
+    "Data Science"
+    ],
+    "facilities": [
+    "Moot Court",
+    "Music Studio",
+    "Data Center"
+    ],
+    "lecturers": [
+    {
+    "name": "Dr. Benjamin Ruto",
+    "department": "Law"
+    },
+    {
+    "name": "Prof. Mercy Chepkorir",
+    "department": "Music"
+    }
+    ],
+    "gallery": [
+    "https://kabarak.ac.ke/images/speasyimagegallery/albums/54/images/img-5823.jpg",
+    "https://kabarak.ac.ke/images/speasyimagegallery/albums/12/images/best-wishes-to-kabarak-university-students-success-and-integrity-in-end-of-semester-exams-3-of-5.jpg",
+    "https://kabarak.ac.ke/images/speasyimagegallery/albums/63/images/kabarak-university-students-association-gala-night-1.jpg",
+    "https://www.google.com/imgres?q=kabarak%20university&imgurl=https%3A%2F%2Fkabarak.ac.ke%2Fimages%2Fspeasyimagegallery%2Falbums%2F79%2Fimages%2Fimg-5317.jpg&imgrefurl=https%3A%2F%2Fkabarak.ac.ke%2Funiversity-news%2Fupdates%2Fkabarak-university-the-premier-examination-center-for-nursing-council-of-kenya&docid=q75lhCwjN6zUtM&tbnid=JfW_dAYlEKGNBM&vet=12ahUKEwj4u7uvn--HAxWIBdsEHc_LCD8QM3oECDIQAA..i&w=1280&h=853&hcb=2&ved=2ahUKEwj4u7uvn--HAxWIBdsEHc_LCD8QM3oECDIQAA",
+    "https://www.google.com/imgres?q=kabarak%20university&imgurl=https%3A%2F%2Fkabarak.ac.ke%2Fimages%2Fstructures%2Fslider-4.jpeg&imgrefurl=https%3A%2F%2Fkabarak.ac.ke%2Flibrary&docid=Bops7Uw6uRKeTM&tbnid=u0dVzdPTj0GzGM&vet=12ahUKEwj4u7uvn--HAxWIBdsEHc_LCD8QM3oECHkQAA..i&w=1170&h=800&hcb=2&ved=2ahUKEwj4u7uvn--HAxWIBdsEHc_LCD8QM3oECHkQAA",
+    "https://kabarak.ac.ke/images/speasyimagegallery/albums/12/images/best-wishes-to-kabarak-university-students-success-and-integrity-in-end-of-semester-exams-2-of-5.jpg",
+    "https://kabarak.ac.ke/images/speasyimagegallery/albums/12/images/img-9714.jpg",
+    "https://kabarak.ac.ke/images/speasyimagegallery/albums/12/images/img-9687.jpg",
+    "https://kabarak.ac.ke/images/speasyimagegallery/albums/12/images/img-1334.jpg",
+    "https://kabarak.ac.ke/images/speasyimagegallery/albums/18/images/img-7966.jpg",
+    "https://kabarak.ac.ke/images/speasyimagegallery/albums/24/images/img-2707.jpg",
+    "https://kabarak.ac.ke/images/speasyimagegallery/albums/63/images/kuso-gala-2023-22.jpg"
+    ]
+    },
+    {
+    "id": 11,
+    "name": "Dedan Kimathi University of Technology",
+    "county": "Nyeri",
+    "academics": [
+    "Geothermal Engineering",
+    "Coffee Technology",
+    "Leather Technology"
+    ],
+    "facilities": [
+    "Geothermal Power Plant",
+    "Coffee Research Station",
+    "Tannery"
+    ],
+    "lecturers": [
+    {
+    "name": "Dr. Lucy Waithera",
+    "department": "Geothermal Engineering"
+    },
+    {
+    "name": "Prof. Stephen Macharia",
+    "department": "Coffee Technology"
+    }
+    ],
+    "gallery": [
+    "https://de-magazine.dkut.ac.ke/wp-content/uploads/slider/cache/acea83cac7240e9a947bdf239419bc40/JPG_6060-min-scaled.jpg",
+    "https://de-magazine.dkut.ac.ke/wp-content/uploads/slider/cache/ac3dfbde5a6876accf2188c5964205da/JPG_4654-scaled.jpg",
+    "https://de-magazine.dkut.ac.ke/wp-content/uploads/slider/cache/ac3dfbde5a6876accf2188c5964205da/JPG_4654-scaled.jpg"
+    ]
+    },
+    {
+    "id": 12,
+    "name": "Karatina University",
+    "county": "Nyeri",
+    "academics": [
+    "Tourism",
+    "Supply Chain Management",
+    "Food Security"
+    ],
+    "facilities": [
+    "Tourism Information Center",
+    "Logistics Lab",
+    "Food Security Research Center"
+    ],
+    "lecturers": [
+    {
+    "name": "Dr. Grace Muthoni",
+    "department": "Tourism"
+    },
+    {
+    "name": "Prof. Daniel Nderitu",
+    "department": "Supply Chain Management"
+    }
+    ],
+    "gallery": [
+    "https://karu.ac.ke/wp-content/uploads/2023/11/W6A0552-scaled.jpg",
+    "https://karu.ac.ke/wp-content/uploads/2023/12/DSC_0528-scaled.jpg",
+    "https://karucu.com/photos/IMG-20240427-152915-11.JPG",
+    "https://karucu.com/photos/IMG-20240218-194306-12.JPG",
+    "https://karucu.com/photos/IMG-20221113-131012-15.JPG"
+    ]
+    },
+    {
+    "id": 13,
+    "name": "Technical University of Mombasa",
+    "county": "Mombasa",
+    "academics": [
+    "Marine Engineering",
+    "Coastal Management",
+    "Port Management"
+    ],
+    "facilities": [
+    "Marine Workshop",
+    "Coastal Ecosystem Lab",
+    "Port Simulation Center"
+    ],
+    "lecturers": [
+    {
+    "name": "Dr. Hassan Ali",
+    "department": "Marine Engineering"
+    },
+    {
+    "name": "Prof. Amina Swahili",
+    "department": "Coastal Management"
+    }
+    ],
+    "gallery": [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1cZZLr8EkHTPo0XR5Pt17NliFx4Ts3twhqw&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTKrr5FWupiW6HsUxUn6ThiuODIKekCwrolw&s"
+    ]
+    },
+    {
+    "id": 14,
+    "name": "Pwani University",
+    "county": "Mombasa",
+    "academics": [
+    "Oceanography",
+    "Hospitality and Tourism Management",
+    "Archeology"
+    ],
+    "facilities": [
+    "Oceanographic Research Vessel",
+    "Beach Resort Training Facility",
+    "Archeological Site"
+    ],
+    "lecturers": [
+    {
+    "name": "Dr. Fatma Abdalla",
+    "department": "Oceanography"
+    },
+    {
+    "name": "Prof. John Mwangi",
+    "department": "Hospitality and Tourism Management"
+    }
+    ],
+    "gallery": [
+    "https://lh3.googleusercontent.com/p/AF1QipMAI5EcEUPp-lEvy0eKLPynAp2HH4k7y5qcmOQE=s680-w680-h510",
+    "https://lh3.googleusercontent.com/p/AF1QipPKlejhB105uvfwOMXTrqIlPuE_QMhXhVe5J3e8=s680-w680-h510"
+    ]
+    },
+    {
+    "id": 15,
+    "name": "Machakos University",
+    "county": "Machakos",
+    "academics": [
+    "Dryland Agriculture",
+    "Renewable Energy",
+    "Fashion Design"
+    ],
+    "facilities": [
+    "Arid Lands Research Station",
+    "Solar and Wind Energy Park",
+    "Fashion Studio"
+    ],
+    "lecturers": [
+    {
+    "name": "Dr. Mutua Kilonzo",
+    "department": "Dryland Agriculture"
+    },
+    {
+    "name": "Prof. Joyce Munyao",
+    "department": "Renewable Energy"
+    }
+    ],
+    "gallery": [
+    "https://upload.wikimedia.org/wikipedia/en/c/ce/Machakos_University_Logo.png",
+    "https://vc.mksu.ac.ke/wp-content/uploads/2023/08/vc-3.jpg"
+    ]
+    },
+    {
+    "id": "60a3",
+    "name": "Daystar University",
+    "county": "Nairobi",
+    "academics": [
+    "Computer Science",
+    "BCOM",
+    "IT",
+    "Nursing",
+    "Medicine"
+    ],
+    "facilities": [
+    "Library",
+    "Laboratory",
+    "Sports Complex",
+    "Pharmacy"
+    ],
+    "lecturers": [
+    {
+    "name": "Kioko Edward",
+    "department": "Computer Science"
+    },
+    {
+    "name": "Chris Brown",
+    "department": "Music"
+    }
+    ],
+    "gallery": [
+    "https://www.daystar.ac.ke/blog/uploads/1719563337_njoroge.jpg",
+    "https://www.daystar.ac.ke/blog/uploads/1721220074_ondongo-paris.jpg"
+    ]
+    },
+    {
+    "id": "8f3b",
+    "name": "University of Eastern Africa, Baraton",
+    "county": "Uasin Gishu",
+    "academics": [
+    "Arts & Humanities",
+    "Language & Cultural",
+    "Business & Social Sciences",
+    "Medicine & Health",
+    "Science & Technology"
+    ],
+    "facilities": [
+    "Library",
+    "Hospital"
+    ],
+    "lecturers": [
+    {
+    "name": "Joseph Mbugua",
+    "department": "IT"
+    }
+    ],
+    "gallery": [
+    "https://ueab.ac.ke/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-14-at-05.10.57.jpg",
+    "https://ueab.ac.ke/wp-content/uploads/2023/08/2I1A6908-scaled.jpg"
+    ]
+    },
+    {
+    "id": "47b9",
+    "name": "Uzima University",
+    "county": "Kisumu",
+    "academics": [
+    "School of Medicine",
+    "School of Medicine"
+    ],
+    "facilities": [
+    "Library",
+    "Housing",
+    "Sport Facilities"
+    ],
+    "lecturers": [
+    {
+    "name": "Enock Wanjala",
+    "department": "Nursing"
+    }
+    ],
+    "gallery": [
+    "https://uzimauniversity.ac.ke/wp-content/uploads/2019/09/Uzima-Award-3-300x284.jpg",
+    "https://uzimauniversity.ac.ke/wp-content/uploads/2019/09/FB_IMG_1700893832614.jpg"
+    ]
+    },
+    {
+    "id": "5e1f",
+    "name": "KIAMBU NATIONAL POLYTECHNIC",
+    "county": "Kiambu",
+    "academics": [
+    "Building and Civil Engineering",
+    "Applied Sciences",
+    "Business",
+    "Entrepreneurship and Social Studes",
+    "Electrical and Electronics Engineering",
+    "Hospitality",
+    "ICT and Computer Studies",
+    "Baking Technology"
+    ],
+    "facilities": [
+    "Library",
+    "Pharmacy"
+    ],
+    "lecturers": [
+    {
+    "name": "Ivy Chepchumba",
+    "department": "Hospitality"
+    }
+    ],
+    "gallery": [
+    "https://portal.kist.ac.ke/uploads/b66649b6-dae6-4f25-a002-b99eef25fb90.jpg?v=GGbs3cNqagpddS1FTU103EuQGcpUHs8ceGEQzsDePAw"
+    ]
+    },
+    {
+    "id": "a9d7",
+    "name": "Sensei Institute of Technology",
+    "county": "Nakuru",
+    "academics": [
+    "Civil Construction",
+    "Construction Management",
+    "Plant/ Heavy equipment Maintenance technician",
+    "Plant Operator course",
+    "Construction Safety Supervisor Course"
+    ],
+    "facilities": [
+    "Driving School"
+    ],
+    "lecturers": [
+    {
+    "name": "Mutinda Kevin",
+    "department": "Civil construction "
+    }
+    ],
+    "gallery": [
+    "https://senseitechnology.co.ke/storage/2023/06/Braiding-Course-800x800.jpg",
+    ""
+    ]
+    },
+    {
+    "id": "5f7f",
+    "name": "Kenya Methodist University\t",
+    "county": "Nyeri",
+    "academics": [
+    "Bridging in Mathematics",
+    "Bridging in Physics",
+    "Bridging in Biology",
+    "Bridging in English",
+    "Certificate in Hospitality Management"
+    ],
+    "facilities": [
+    "Library",
+    "Housing",
+    "Sports facilities",
+    "Financial aids and/or scholarships",
+    "Study abroad and exchange programs",
+    "Online courses and distance learning opportunities",
+    "administrative services."
+    ],
+    "lecturers": [
+    {
+    "name": "James Mugo",
+    "department": "Library"
+    }
+    ],
+    "gallery": [
+    "https://i0.wp.com/www.kemu.ac.ke/wp-content/uploads/2023/08/IMG_9817-2.jpg?fit=800%2C534&ssl=1",
+    "https://www.kemu.ac.ke/wp-content/uploads/2021/08/kemuaa-logo.png"
+    ]
+    }
+    ]
+    }

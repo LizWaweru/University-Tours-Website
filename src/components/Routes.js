@@ -1,14 +1,15 @@
 import { Outlet } from "react-router-dom";
 import ContextProvider from "./ContextProvider";
 import Navigation from "./Navigation";
-import UniversityList from "./UniversityList";
+import HomePage from "./HomePage";
+import AboutPage from "./AboutPage";
 import UniversityDetails from "./UniversityDetails";
 import Admin from "./Admin";
 import ErrorPage from "./ErrorPage";
 
 const App=()=>(
   <ContextProvider>
-    <div className="bg-secondary d-flex flex-column min-vh-100 align-items-center justify-content-center">
+    <div className="bg-secondary d-flex flex-column min-vh-100">
       <Navigation/>
       <Outlet/>
     </div>
@@ -22,7 +23,11 @@ const routes=[
     children:[
       {
         path:"/",
-        element:<UniversityList/>,
+        element:<HomePage/>,
+      },
+      {
+        path:"/about",
+        element:<AboutPage/>,
       },
       {
         path:"/university/:id",

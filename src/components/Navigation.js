@@ -1,6 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function Navigation() {
     const location = useLocation();
@@ -8,9 +7,7 @@ function Navigation() {
     
     const handleSearch = (e) => {
         e.preventDefault();
-        // Implement search functionality here
         console.log("Searching for:", searchQuery);
-        // You could redirect to a search results page or filter results on the current page
     };
     
     return (
@@ -33,17 +30,21 @@ function Navigation() {
                         </li>
                         <li className="nav-item">
                             <Link 
+                                to="/about" 
+                                className={`nav-link ${location.pathname === '/about' ? 'active' : ''}`}
+                                aria-current={location.pathname === '/about' ? 'page' : undefined}
+                            >
+                                University Listings
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link 
                                 to="/admin" 
                                 className={`nav-link ${location.pathname === '/admin' ? 'active' : ''}`}
                                 aria-current={location.pathname === '/admin' ? 'page' : undefined}
                             >
                                 Admin
                             </Link>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="https://education.go.ke/" target="_blank" rel="noopener noreferrer">
-                                Ministry of Education
-                            </a>
                         </li>
                     </ul>
                     <form className="d-flex" role="search" onSubmit={handleSearch}>

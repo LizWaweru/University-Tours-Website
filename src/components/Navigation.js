@@ -34,7 +34,7 @@ function Navigation() {
                                 className={`nav-link ${location.pathname === '/about' ? 'active' : ''}`}
                                 aria-current={location.pathname === '/about' ? 'page' : undefined}
                             >
-                                University Listings
+                                Listings
                             </Link>
                         </li>
                         <li className="nav-item">

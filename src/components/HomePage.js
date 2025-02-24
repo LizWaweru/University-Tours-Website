@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 // Import the university image directly
-import universityImage from "../assets/universityPic2.jpg";
+import universityImage from "../assets/student-k.png";
 
 function HomePage() {
 

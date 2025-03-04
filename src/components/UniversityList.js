@@ -8,13 +8,22 @@ function UniversityList() {
     const [selectedCounty, setSelectedCounty] = useState("");
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
+    const [universities, setUniversities] = useState([]);
 
     useEffect(() => {
         // Log the type and value of universitiesData
         console.log('Universities Data Type:', typeof universitiesData);
         console.log('Universities Data:', universitiesData);
 
-        if (universitiesData) {
+        // Extract universities from the nested structure
+        const extractedUniversities = universitiesData?.['universities-list'] || 
+                                      (Array.isArray(universitiesData) ? universitiesData : 
+                                       (typeof universitiesData === 'object' ? Object.values(universitiesData)[0] : []));
+
+        console.log('Extracted Universities:', extractedUniversities);
+
+        if (extractedUniversities && extractedUniversities.length > 0) {
+            setUniversities(extractedUniversities);
             setIsLoading(false);
         } else {
             setError('No universities data available');
@@ -30,15 +39,9 @@ function UniversityList() {
         return <p>Error: {error}</p>;
     }
 
-    // Additional safety check before filtering or mapping
-    if (!Array.isArray(universitiesData)) {
-        console.error('universitiesData is not an array:', universitiesData);
-        return <p>Error: Unable to load universities data</p>;
-    }
-
     const filteredUniversities = selectedCounty 
-        ? universitiesData.filter((eachUniversity) => eachUniversity.county === selectedCounty)
-        : universitiesData;
+        ? universities.filter((eachUniversity) => eachUniversity.county === selectedCounty)
+        : universities;
         
     return (
         <>
@@ -62,7 +65,6 @@ function UniversityList() {
             </div>
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 {filteredUniversities.map((eachUniversity) => {
-                    // Ensure gallery exists and is an array
                     const imagesToDisplay = Array.isArray(eachUniversity.gallery) 
                         ? eachUniversity.gallery.slice(0, 3) 
                         : [];

@@ -2,97 +2,151 @@ import { useState, useContext, useEffect } from 'react';
 import { UniversitiesContext } from './ContextProvider';
 
 function Admin() {
-  const { universitiesData, setUniversitiesData }=useContext(UniversitiesContext);
-  const [selectedUniversity, setSelectedUniversity]=useState(null);
-  const [formData, setFormData]=useState({
-    name:"",
-    county:"",
-    academics:[],
-    facilities:[],
-    lecturers:[],
-    gallery:[]
+  const { universitiesData, setUniversitiesData } = useContext(UniversitiesContext);
+  const [selectedUniversity, setSelectedUniversity] = useState(null);
+  const [formData, setFormData] = useState({
+    name: "",
+    county: "",
+    academics: [],
+    facilities: [],
+    lecturers: [],
+    gallery: []
   });
-  const [isEditing, setIsEditing]=useState(false);
+  const [isEditing, setIsEditing] = useState(false);
+  const [error, setError] = useState(null);
 
-  useEffect(()=>{
-    if(selectedUniversity){
+  // Debug logging
+  useEffect(() => {
+    console.log('Universities Data Type:', typeof universitiesData);
+    console.log('Universities Data:', universitiesData);
+    
+    // Convert to array if it's an object
+    if (universitiesData && !Array.isArray(universitiesData)) {
+      const dataArray = Object.values(universitiesData);
+      console.log('Converted to Array:', dataArray);
+    }
+  }, [universitiesData]);
+
+  useEffect(() => {
+    if (selectedUniversity) {
       setFormData(selectedUniversity);
     }
   }, [selectedUniversity]);
 
-  const handleInputChange=(e)=>{
-    const { name, value }=e.target;
-    setFormData(currentFormData=>({...currentFormData, [name]: value}));
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(currentFormData => ({ ...currentFormData, [name]: value }));
   };
 
-  const handleArrayInputChange=(e, field)=>{
-    const { value }=e.target;
-    setFormData(currentFormData=>({...currentFormData, [field]: value.split(',').map(item => item.trim())}));
+  const handleArrayInputChange = (e, field) => {
+    const { value } = e.target;
+    setFormData(currentFormData => ({ ...currentFormData, [field]: value.split(',').map(item => item.trim()) }));
   };
 
-  const handleLecturerChange=(e, index, field)=>{
-    const newLecturers=[...formData.lecturers];
-    newLecturers[index]={...newLecturers[index], [field]: e.target.value};
-    setFormData(prevFormData=>({...prevFormData, lecturers: newLecturers}));
+  const handleLecturerChange = (e, index, field) => {
+    const newLecturers = [...formData.lecturers];
+    newLecturers[index] = { ...newLecturers[index], [field]: e.target.value };
+    setFormData(prevFormData => ({ ...prevFormData, lecturers: newLecturers }));
   };
 
-  const handleSubmit=(e)=>{
+  const handleSubmit = (e) => {
     e.preventDefault();
-    if(isEditing){
+    if (isEditing) {
       fetch(`https://universities-json-wnlq.vercel.app//${selectedUniversity.id}`, {
-        method:"PUT",
-        headers:{
+        method: "PUT",
+        headers: {
           "Content-Type": "application/json"
         },
-        body:JSON.stringify(formData)
+        body: JSON.stringify(formData)
       })
-        .then(response=>response.json())
-        .then(updatedUniversity=>{
-          setUniversitiesData(currentData=>currentData.map(university=>university.id===updatedUniversity.id?updatedUniversity:university));
+        .then(response => response.json())
+        .then(updatedUniversity => {
+          setUniversitiesData(currentData => {
+            // Ensure currentData is an array
+            const dataArray = Array.isArray(currentData) 
+              ? currentData 
+              : currentData && typeof currentData === 'object' 
+                ? Object.values(currentData) 
+                : [];
+            
+            return dataArray.map(university => 
+              university.id === updatedUniversity.id ? updatedUniversity : university
+            );
+          });
           resetForm();
         });
     } else {
       fetch("https://universities-json-wnlq.vercel.app/", {
-        method:"POST",
-        headers:{
+        method: "POST",
+        headers: {
           "Content-Type": "application/json"
         },
-        body:JSON.stringify(formData)
+        body: JSON.stringify(formData)
       })
-        .then(response=>response.json())
-        .then(newUniversity=>{
-          setUniversitiesData(currentData=>[...currentData, newUniversity]);
+        .then(response => response.json())
+        .then(newUniversity => {
+          setUniversitiesData(currentData => {
+            // Ensure currentData is an array
+            const dataArray = Array.isArray(currentData) 
+              ? currentData 
+              : currentData && typeof currentData === 'object' 
+                ? Object.values(currentData) 
+                : [];
+            
+            return [...dataArray, newUniversity];
+          });
           resetForm();
         });
     }
   };
 
-  const handleEdit=(university)=>{
+  const handleEdit = (university) => {
     setSelectedUniversity(university);
     setIsEditing(true);
   };
 
-  const handleDelete=(id)=>{
+  const handleDelete = (id) => {
     fetch(`https://universities-json-wnlq.vercel.app/${id}`, {
-      method:"DELETE"
+      method: "DELETE"
     })
-      .then(()=>{
-        setUniversitiesData(currentData=>currentData.filter(university=>university.id!==id));
+      .then(() => {
+        setUniversitiesData(currentData => {
+          // Ensure currentData is an array
+          const dataArray = Array.isArray(currentData) 
+            ? currentData 
+            : currentData && typeof currentData === 'object' 
+              ? Object.values(currentData) 
+              : [];
+          
+          return dataArray.filter(university => university.id !== id);
+        });
       });
   };
 
-  const resetForm=()=>{
+  const resetForm = () => {
     setSelectedUniversity(null);
     setIsEditing(false);
     setFormData({
-      name:"",
-      county:"",
-      academics:[],
-      facilities:[],
-      lecturers:[],
-      gallery:[]
+      name: "",
+      county: "",
+      academics: [],
+      facilities: [],
+      lecturers: [],
+      gallery: []
     });
   };
+
+  // Convert universitiesData to an array
+  const universitiesArray = Array.isArray(universitiesData) 
+    ? universitiesData 
+    : universitiesData && typeof universitiesData === 'object' 
+      ? Object.values(universitiesData) 
+      : [];
+
+  // Error handling
+  if (error) {
+    return <div className="alert alert-danger">Error: {error}</div>;
+  }
 
   return (
     <div className="container">
@@ -132,12 +186,12 @@ function Admin() {
 
       <h3 className="mb-3">Universities List</h3>
       <ul className="list-group">
-        {universitiesData.map(university=>(
+        {universitiesArray.map(university => (
           <li key={university.id} className="list-group-item d-flex justify-content-between align-items-center">
             {university.name}
             <div>
-              <button className="btn btn-sm btn-outline-primary me-2" onClick={()=>handleEdit(university)}>Edit</button>
-              <button className="btn btn-sm btn-outline-danger" onClick={()=>handleDelete(university.id)}>Delete</button>
+              <button className="btn btn-sm btn-outline-primary me-2" onClick={() => handleEdit(university)}>Edit</button>
+              <button className="btn btn-sm btn-outline-danger" onClick={() => handleDelete(university.id)}>Delete</button>
             </div>
           </li>
         ))}

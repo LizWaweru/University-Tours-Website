@@ -7,7 +7,7 @@ function ContextProvider({children}){
         fetchUniversitiesData();
     }, []);
     function fetchUniversitiesData(){
-        fetch("http://localhost:3001/universities-list")
+        fetch("https://universities-json-wnlq.vercel.app/")
         .then(response=>response.json())
         .then(data=>setUniversitiesData(data))
         .catch(error=>console.error("Error fetching data:",error));
